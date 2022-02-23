@@ -43,7 +43,7 @@ vice versa if I need 60 hosts
 
 
 
------ADDRESS TYPES 
+-----ADDRESS TYPES, REDIRECTING DESING, VARIABLE MASK REDIRECTION
 
 Class A: First bit always at 0
 Default mask 255.0.0.0
@@ -86,3 +86,13 @@ Remote Office   2^5 -2   255.255.255.224   192.168.1.160   192.168.1.191   192.1
 Link            2^2 -2   255.255.255.252   192.168.1.192   192.168.1.195   192.168.1.193       192.168.1.194
 Link            2^2 -2   255.255.255.252   192.168.1.196   192.168.1.199   192.168.1.197       192.168.1.198
 Link            2^2 -2   255.255.255.252   192.168.1.200   192.168.1.203   192.168.1.201       192.168.1.202
+
+
+-----PUBLIC AND PRIVATE ADDRESSES 
+private address ranges
+
+Clase A: 10.0.0.0 — 10.255.255.255
+
+Clase B: 172.16.0.0 — 172.31.255.255 
+
+Clase C: 192.168.0.0 — 192.168.255.255 
