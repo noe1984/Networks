@@ -96,3 +96,23 @@ Clase A: 10.0.0.0 — 10.255.255.255
 Clase B: 172.16.0.0 — 172.31.255.255 
 
 Clase C: 192.168.0.0 — 192.168.255.255 
+
+
+-----NAMES FOR HUMANS AND MACHINES 
+types of registrations
+A = Address. This record is used to translate hosting server names to IPv4 addresses.
+
+AAAA = Address. This record is used in IPv6 to translate host names to IPv6 addresses.
+
+CNAME = Canonical Name. It is used to create additional hosting names, or aliases, for a domain's hosting servers.
+
+NS = Name server. Defines the association between a domain name and the name servers that store the information for that domain.
+
+MX =(mail exchange). Associates a domain name with a list of mail exchangers for that domain.
+
+PTR = Indicator (pointer). 'reverse record' works in reverse of the A record, translating IPs into domain names.
+
+SOA = Zone Authority (start of authority). Provides information about the zone's primary DNS server.
+
+https://network-tools.com/
+
