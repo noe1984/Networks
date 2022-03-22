@@ -116,3 +116,32 @@ SOA = Zone Authority (start of authority). Provides information about the zone's
 
 https://network-tools.com/
 
+
+-----ADDRESS ASIGMENT SERVICE
+DHCP
+
+-----ESTATIC ROUTES
+Static routing has three main uses:
+
+It facilitates routing table maintenance in smaller networks that are not expected to grow significantly.
+
+Provides routing to and from internal route networks. An internal route network is one that is accessed through a single 
+    route and whose router has only one neighbor.
+
+It uses a single default route to represent a route to any network that does not have a more specific match to another route in the routing table. 
+    Default routes are used to send traffic to any destination beyond the next upstream router.
+
+
+-----DYNAMIC ROUTES
+Dynamic routing protocols are commonly used in the following scenarios:
+
+In networks consisting of more than a few routers
+
+When a change in network topology requires the network to automatically determine another route
+
+Scalability. As the network grows, the dynamic routing protocol automatically learns about any new networks.
+
+
+----VLAN
+VLAN: Allows the segregation of groups so that the traffic only 
+circulates through the ports allowed within said VLAN generated from these groups.
