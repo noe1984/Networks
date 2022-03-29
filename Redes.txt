@@ -145,3 +145,30 @@ Scalability. As the network grows, the dynamic routing protocol automatically le
 ----VLAN
 VLAN: Allows the segregation of groups so that the traffic only 
 circulates through the ports allowed within said VLAN generated from these groups.
+
+
+----ACCESS CONTROL LISTS
+How do ACLs work?
+• The rules are evaluated one by one in the order that they were configured.
+• Once the first match is found, the rule is applied and the others are ignored.
+• This implies that they must be built from the particular to the general.
+• At the end of every list there is an implicit rule to deny everything.
+
+Types of ACL lists
+• Standard: Filters according to the source IP
+• Extended: Filters according to:
+    Source IP
+    Destination IP
+    Source UDP/TCP Port
+    Destination UDP/TCP Port
+    Protocol
+
+What you can do to get a wildcard is calculate the difference between 255.255.255.255 and the Subnet Mask of the network.
+For Ex.
+255,255,255,255
+255,255,255,240
+0 . 0 . 0 . 15 = wild card.
+
+
+-----
+
