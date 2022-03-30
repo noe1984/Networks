@@ -163,11 +163,12 @@ Types of ACL lists
     Destination UDP/TCP Port
     Protocol
 
-What you can do to get a wildcard is calculate the difference between 255.255.255.255 and the Subnet Mask of the network.
+What you can do to get a wildcard is calculate the difference 
+between 255.255.255.255 and the Subnet Mask of the network.
 For Ex.
 255,255,255,255
 255,255,255,240
-0 . 0 . 0 . 15 = wild card.
+0 . 0 . 0 . 15  = wild card.
 
 
 -----
